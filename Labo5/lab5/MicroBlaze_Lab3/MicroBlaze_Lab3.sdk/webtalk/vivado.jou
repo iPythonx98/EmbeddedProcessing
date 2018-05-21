@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Tue May 15 17:53:29 2018
+# Process ID: 3600
+# Log file: E:/MicroBlaze_Lab3/MicroBlaze_Lab3.sdk/webtalk/vivado.log
+# Journal file: E:/MicroBlaze_Lab3/MicroBlaze_Lab3.sdk/webtalk\vivado.jou
+#-----------------------------------------------------------
+source sdk.tcl

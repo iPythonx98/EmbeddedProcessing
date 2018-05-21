@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon May 21 14:20:13 2018
+# Process ID: 7804
+# Current directory: C:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo5/lab5/MicroBlaze_Lab3/MicroBlaze_Lab3.runs/synth_1
+# Command line: vivado.exe -log System_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source System_wrapper.tcl
+# Log file: C:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo5/lab5/MicroBlaze_Lab3/MicroBlaze_Lab3.runs/synth_1/System_wrapper.vds
+# Journal file: C:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo5/lab5/MicroBlaze_Lab3/MicroBlaze_Lab3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source System_wrapper.tcl -notrace

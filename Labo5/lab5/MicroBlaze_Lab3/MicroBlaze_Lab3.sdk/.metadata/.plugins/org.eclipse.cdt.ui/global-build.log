@@ -1,0 +1,656 @@
+17:23:39 **** Build of project Microblaze_lab5_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_0/src"
+make -C microblaze_0/libsrc/bram_v4_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/cpu_v2_1/src"
+make -C microblaze_0/libsrc/cpu_v2_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/gpio_v4_0/src"
+make -C microblaze_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/led_ip_v1_0/src"
+make -C microblaze_0/libsrc/led_ip_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/standalone_v4_1/src"
+make -C microblaze_0/libsrc/standalone_v4_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/tmrctr_v3_0/src"
+make -C microblaze_0/libsrc/tmrctr_v3_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_0/src"
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make libs in microblaze_0/libsrc/bram_v4_0/src"
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/cpu_v2_1/src"
+make -C microblaze_0/libsrc/cpu_v2_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_0/src"
+make -C microblaze_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/led_ip_v1_0/src"
+make -C microblaze_0/libsrc/led_ip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling led_ip..."
+"Running Make libs in microblaze_0/libsrc/standalone_v4_1/src"
+make -C microblaze_0/libsrc/standalone_v4_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling standalone";
+"Running Make libs in microblaze_0/libsrc/tmrctr_v3_0/src"
+make -C microblaze_0/libsrc/tmrctr_v3_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src"
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling uartlite"
+'Finished building libraries'
+17:23:44 **** Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Microblaze_lab5.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Microblaze_lab5_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Microblaze_lab5.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Microblaze_lab5.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Microblaze_lab5.elf  |tee "Microblaze_lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2356	    268	   2088	   4712	   1268	Microblaze_lab5.elf
+'Finished building: Microblaze_lab5.elf.size'
+' '
+17:25:57 **** Auto Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+'Building file: ../src/MicroBlaze_lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/MicroBlaze_lab5.d" -MT"src/MicroBlaze_lab5.d" -o "src/MicroBlaze_lab5.o" "../src/MicroBlaze_lab5.c"
+../src/MicroBlaze_lab5.c:7:1: error: unknown type name 'XTmrCtr'
+ XTmrCtr Timer;   /* MicroBlaze AXI-timer instance */
+ ^
+../src/MicroBlaze_lab5.c: In function 'main':
+../src/MicroBlaze_lab5.c:18:4: error: unknown type name 'XTmrCtr'
+    XTmrCtr *TimerInstancePtr = &Timer;
+    ^
+../src/MicroBlaze_lab5.c:52:5: warning: implicit declaration of function 'XTmrCtr_Stop' [-Wimplicit-function-declaration]
+     XTmrCtr_Stop(TimerInstancePtr,0);
+     ^
+../src/MicroBlaze_lab5.c:63:4: warning: implicit declaration of function 'XTmrCtr_IsExpired' [-Wimplicit-function-declaration]
+    if(XTmrCtr_IsExpired(TimerInstancePtr,0)) {
+    ^
+../src/MicroBlaze_lab5.c:15:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^
+../src/MicroBlaze_lab5.c:15:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^
+make: *** [src/MicroBlaze_lab5.o] Fout 1
+17:45:32 **** Auto Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+'Building file: ../src/MicroBlaze_lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/MicroBlaze_lab5.d" -MT"src/MicroBlaze_lab5.d" -o "src/MicroBlaze_lab5.o" "../src/MicroBlaze_lab5.c"
+../src/MicroBlaze_lab5.c:9:1: error: unknown type name 'XTmrCtr'
+ XTmrCtr Timer;   /* MicroBlaze AXI-timer instance */
+ ^
+../src/MicroBlaze_lab5.c: In function 'main':
+../src/MicroBlaze_lab5.c:20:4: error: unknown type name 'XTmrCtr'
+    XTmrCtr *TimerInstancePtr = &Timer;
+    ^
+../src/MicroBlaze_lab5.c:54:5: warning: implicit declaration of function 'XTmrCtr_Stop' [-Wimplicit-function-declaration]
+     XTmrCtr_Stop(TimerInstancePtr,0);
+     ^
+../src/MicroBlaze_lab5.c:65:4: warning: implicit declaration of function 'XTmrCtr_IsExpired' [-Wimplicit-function-declaration]
+    if(XTmrCtr_IsExpired(TimerInstancePtr,0)) {
+    ^
+../src/MicroBlaze_lab5.c:17:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^
+../src/MicroBlaze_lab5.c:17:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^
+make: *** [src/MicroBlaze_lab5.o] Fout 1
+17:46:28 **** Auto Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+'Building file: ../src/MicroBlaze_lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/MicroBlaze_lab5.d" -MT"src/MicroBlaze_lab5.d" -o "src/MicroBlaze_lab5.o" "../src/MicroBlaze_lab5.c"
+../src/MicroBlaze_lab5.c:10:1: error: unknown type name 'XTmrCtr'
+ XTmrCtr Timer;   /* MicroBlaze AXI-timer instance */
+ ^
+../src/MicroBlaze_lab5.c: In function 'main':
+../src/MicroBlaze_lab5.c:21:4: error: unknown type name 'XTmrCtr'
+    XTmrCtr *TimerInstancePtr = &Timer;
+    ^
+../src/MicroBlaze_lab5.c:55:5: warning: implicit declaration of function 'XTmrCtr_Stop' [-Wimplicit-function-declaration]
+     XTmrCtr_Stop(TimerInstancePtr,0);
+     ^
+../src/MicroBlaze_lab5.c:66:4: warning: implicit declaration of function 'XTmrCtr_IsExpired' [-Wimplicit-function-declaration]
+    if(XTmrCtr_IsExpired(TimerInstancePtr,0)) {
+    ^
+../src/MicroBlaze_lab5.c:18:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^
+../src/MicroBlaze_lab5.c:18:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^
+make: *** [src/MicroBlaze_lab5.o] Fout 1
+17:47:17 **** Auto Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+'Building file: ../src/MicroBlaze_lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/MicroBlaze_lab5.d" -MT"src/MicroBlaze_lab5.d" -o "src/MicroBlaze_lab5.o" "../src/MicroBlaze_lab5.c"
+../src/MicroBlaze_lab5.c:11:1: error: unknown type name 'XTmrCtr'
+ XTmrCtr Timer;   /* MicroBlaze AXI-timer instance */
+ ^
+../src/MicroBlaze_lab5.c: In function 'main':
+../src/MicroBlaze_lab5.c:22:4: error: unknown type name 'XTmrCtr'
+    XTmrCtr *TimerInstancePtr = &Timer;
+    ^
+../src/MicroBlaze_lab5.c:56:5: warning: implicit declaration of function 'XTmrCtr_Stop' [-Wimplicit-function-declaration]
+     XTmrCtr_Stop(TimerInstancePtr,0);
+     ^
+../src/MicroBlaze_lab5.c:67:4: warning: implicit declaration of function 'XTmrCtr_IsExpired' [-Wimplicit-function-declaration]
+    if(XTmrCtr_IsExpired(TimerInstancePtr,0)) {
+    ^
+../src/MicroBlaze_lab5.c:19:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^
+../src/MicroBlaze_lab5.c:19:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^
+make: *** [src/MicroBlaze_lab5.o] Fout 1
+17:52:09 **** Auto Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+'Building file: ../src/MicroBlaze_lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/MicroBlaze_lab5.d" -MT"src/MicroBlaze_lab5.d" -o "src/MicroBlaze_lab5.o" "../src/MicroBlaze_lab5.c"
+../src/MicroBlaze_lab5.c: In function 'main':
+../src/MicroBlaze_lab5.c:19:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^
+../src/MicroBlaze_lab5.c:19:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^
+'Finished building: ../src/MicroBlaze_lab5.c'
+' '
+'Building target: Microblaze_lab5.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Microblaze_lab5_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Microblaze_lab5.elf"  ./src/MicroBlaze_lab5.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+E:\MicroBlaze_Lab3\MicroBlaze_Lab3.sdk\Microblaze_lab5\Debug/../src/helloworld.c:40: multiple definition of `main'
+./src/MicroBlaze_lab5.o:E:\MicroBlaze_Lab3\MicroBlaze_Lab3.sdk\Microblaze_lab5\Debug/../src/MicroBlaze_lab5.c:16: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [Microblaze_lab5.elf] Fout 1
+17:53:29 **** Auto Build of project Microblaze_lab5_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_0/src"
+make -C microblaze_0/libsrc/bram_v4_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/cpu_v2_1/src"
+make -C microblaze_0/libsrc/cpu_v2_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/gpio_v4_0/src"
+make -C microblaze_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/led_ip_v1_0/src"
+make -C microblaze_0/libsrc/led_ip_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/standalone_v4_1/src"
+make -C microblaze_0/libsrc/standalone_v4_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/tmrctr_v3_0/src"
+make -C microblaze_0/libsrc/tmrctr_v3_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_0/src"
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make libs in microblaze_0/libsrc/bram_v4_0/src"
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_1/src"
+make -C microblaze_0/libsrc/cpu_v2_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_0/src"
+make -C microblaze_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/led_ip_v1_0/src"
+make -C microblaze_0/libsrc/led_ip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling led_ip..."
+"Running Make libs in microblaze_0/libsrc/standalone_v4_1/src"
+make -C microblaze_0/libsrc/standalone_v4_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling standalone";
+"Running Make libs in microblaze_0/libsrc/tmrctr_v3_0/src"
+make -C microblaze_0/libsrc/tmrctr_v3_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src"
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling uartlite"
+'Finished building libraries'
+14:33:38 **** Clean-only build of configuration Debug for project Microblaze_lab5 ****
+make clean 
+rm -rf  ./src/MicroBlaze_lab5.o ./src/helloworld.o ./src/platform.o  ./src/MicroBlaze_lab5.d ./src/helloworld.d ./src/platform.d  Microblaze_lab5.elf.size  Microblaze_lab5.elf
+' '
+14:33:39 **** Auto Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+'Building file: ../src/MicroBlaze_lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MicroBlaze_lab5.o" -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/MicroBlaze_lab5.d" -MT"src/MicroBlaze_lab5.o" -o "src/MicroBlaze_lab5.o" "../src/MicroBlaze_lab5.c"
+../src/MicroBlaze_lab5.c: In function 'main':
+../src/MicroBlaze_lab5.c:19:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^~~~~~
+../src/MicroBlaze_lab5.c:19:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^~~~~
+'Finished building: ../src/MicroBlaze_lab5.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:37:6: error: conflicting types for 'print'
+ void print(char *str);
+      ^~~~~
+In file included from c:\xilinx\sdk\2018.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:29:0,
+                 from ../src/helloworld.c:34:
+c:\xilinx\sdk\2018.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:231:9: note: previous declaration of 'print' was here
+ void    _EXFUN(print, (const char* ));
+         ^
+make: *** [src/helloworld.o] Fout 1
+14:33:45 **** Auto Build of project Microblaze_lab5_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/bram_v4_0/src"
+make -C microblaze_0/libsrc/bram_v4_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/cpu_v2_1/src"
+make -C microblaze_0/libsrc/cpu_v2_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/gpio_v4_0/src"
+make -C microblaze_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/led_ip_v1_0/src"
+make -C microblaze_0/libsrc/led_ip_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/standalone_v4_1/src"
+make -C microblaze_0/libsrc/standalone_v4_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/tmrctr_v3_0/src"
+make -C microblaze_0/libsrc/tmrctr_v3_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_0/src"
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Running Make libs in microblaze_0/libsrc/bram_v4_0/src"
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling bram"
+In file included from xbram_selftest.c:80:0:
+xbram_selftest.c: In function 'InjectErrors':
+../../../include/xil_cache.h:202:3: warning: implicit declaration of function 'microblaze_flush_cache_ext_range'; did you mean 'microblaze_flush_dcache_range'? [-Wimplicit-function-declaration]
+   microblaze_flush_cache_ext_range(Addr, Len)
+   ^
+../../../include/xil_cache.h:407:2: note: in expansion of macro 'Xil_L2CacheFlushRange'
+  Xil_L2CacheFlushRange(Addr, Len); \
+  ^~~~~~~~~~~~~~~~~~~~~
+xbram_selftest.c:267:2: note: in expansion of macro 'Xil_DCacheFlushRange'
+  Xil_DCacheFlushRange(Addr, 4);
+  ^~~~~~~~~~~~~~~~~~~~
+"Running Make libs in microblaze_0/libsrc/cpu_v2_1/src"
+make -C microblaze_0/libsrc/cpu_v2_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_0/src"
+make -C microblaze_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/led_ip_v1_0/src"
+make -C microblaze_0/libsrc/led_ip_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling led_ip..."
+In file included from led_ip_selftest.c:3:0:
+led_ip_selftest.c: In function 'LED_IP_Reg_SelfTest':
+led_ip.h:35:4: warning: implicit declaration of function 'Xil_Out32' [-Wimplicit-function-declaration]
+    Xil_Out32((BaseAddress) + (RegOffset), (u32)(Data))
+    ^
+led_ip_selftest.c:50:4: note: in expansion of macro 'LED_IP_mWriteReg'
+    LED_IP_mWriteReg (baseaddr, write_loop_index*4, (write_loop_index+1)*READ_WRITE_MUL_FACTOR);
+    ^~~~~~~~~~~~~~~~
+led_ip.h:55:5: warning: implicit declaration of function 'Xil_In32' [-Wimplicit-function-declaration]
+     Xil_In32((BaseAddress) + (RegOffset))
+     ^
+led_ip_selftest.c:52:9: note: in expansion of macro 'LED_IP_mReadReg'
+    if ( LED_IP_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+         ^~~~~~~~~~~~~~~
+"Running Make libs in microblaze_0/libsrc/standalone_v4_1/src"
+make -C microblaze_0/libsrc/standalone_v4_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling standalone";
+In file included from xil_testcache.c:63:0:
+xil_testcache.c: In function 'Xil_TestDCacheRange':
+xil_cache.h:202:3: warning: implicit declaration of function 'microblaze_flush_cache_ext_range'; did you mean 'microblaze_flush_dcache_range'? [-Wimplicit-function-declaration]
+   microblaze_flush_cache_ext_range(Addr, Len)
+   ^
+xil_cache.h:407:2: note: in expansion of macro 'Xil_L2CacheFlushRange'
+  Xil_L2CacheFlushRange(Addr, Len); \
+  ^~~~~~~~~~~~~~~~~~~~~
+xil_testcache.c:98:2: note: in expansion of macro 'Xil_DCacheFlushRange'
+  Xil_DCacheFlushRange((u32)Data, DATA_LENGTH * sizeof(u32));
+  ^~~~~~~~~~~~~~~~~~~~
+xil_cache.h:165:3: warning: implicit declaration of function 'microblaze_invalidate_cache_ext_range'; did you mean 'microblaze_invalidate_dcache_range'? [-Wimplicit-function-declaration]
+   microblaze_invalidate_cache_ext_range(Addr, Len)
+   ^
+xil_cache.h:165:3: note: in definition of macro 'Xil_L2CacheInvalidateRange'
+   microblaze_invalidate_cache_ext_range(Addr, Len)
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+xil_testcache.c:104:2: note: in expansion of macro 'Xil_DCacheInvalidateRange'
+  Xil_DCacheInvalidateRange((u32)Data, DATA_LENGTH * sizeof(u32));
+  ^~~~~~~~~~~~~~~~~~~~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v3_0/src"
+make -C microblaze_0/libsrc/tmrctr_v3_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src"
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
+"Compiling uartlite"
+'Finished building libraries'
+14:33:56 **** Clean-only build of configuration Debug for project Microblaze_lab5 ****
+make clean 
+rm -rf  ./src/MicroBlaze_lab5.o ./src/helloworld.o ./src/platform.o  ./src/MicroBlaze_lab5.d ./src/helloworld.d ./src/platform.d  Microblaze_lab5.elf.size  Microblaze_lab5.elf
+' '
+14:33:57 **** Auto Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+'Building file: ../src/MicroBlaze_lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MicroBlaze_lab5.o" -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/MicroBlaze_lab5.d" -MT"src/MicroBlaze_lab5.o" -o "src/MicroBlaze_lab5.o" "../src/MicroBlaze_lab5.c"
+../src/MicroBlaze_lab5.c: In function 'main':
+../src/MicroBlaze_lab5.c:19:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^~~~~~
+../src/MicroBlaze_lab5.c:19:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^~~~~
+'Finished building: ../src/MicroBlaze_lab5.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:37:6: error: conflicting types for 'print'
+ void print(char *str);
+      ^~~~~
+In file included from c:\xilinx\sdk\2018.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:29:0,
+                 from ../src/helloworld.c:34:
+c:\xilinx\sdk\2018.1\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:231:9: note: previous declaration of 'print' was here
+ void    _EXFUN(print, (const char* ));
+         ^
+make: *** [src/helloworld.o] Fout 1
+14:35:05 **** Clean-only build of configuration Debug for project Microblaze_lab5 ****
+make clean 
+rm -rf  ./src/MicroBlaze_lab5.o ./src/helloworld.o ./src/platform.o  ./src/MicroBlaze_lab5.d ./src/helloworld.d ./src/platform.d  Microblaze_lab5.elf.size  Microblaze_lab5.elf
+' '
+14:35:05 **** Auto Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+'Building file: ../src/MicroBlaze_lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MicroBlaze_lab5.o" -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/MicroBlaze_lab5.d" -MT"src/MicroBlaze_lab5.o" -o "src/MicroBlaze_lab5.o" "../src/MicroBlaze_lab5.c"
+../src/MicroBlaze_lab5.c: In function 'main':
+../src/MicroBlaze_lab5.c:19:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^~~~~~
+../src/MicroBlaze_lab5.c:19:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^~~~~
+'Finished building: ../src/MicroBlaze_lab5.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Microblaze_lab5.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Microblaze_lab5_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Microblaze_lab5.elf"  ./src/MicroBlaze_lab5.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Microblaze_lab5.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Microblaze_lab5.elf  |tee "Microblaze_lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7237	    312	   2123	   9672	   25c8	Microblaze_lab5.elf
+'Finished building: Microblaze_lab5.elf.size'
+' '
+14:49:12 **** Auto Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+'Building file: ../src/MicroBlaze_lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MicroBlaze_lab5.o" -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/MicroBlaze_lab5.d" -MT"src/MicroBlaze_lab5.o" -o "src/MicroBlaze_lab5.o" "../src/MicroBlaze_lab5.c"
+../src/MicroBlaze_lab5.c: In function 'main':
+../src/MicroBlaze_lab5.c:44:42: error: 'XTC_AUTO' undeclared (first use in this function)
+    XTmrCtr_SetOptions(TimerInstancePtr,0,XTC_AUTO,RELOAD,OPTION);
+                                          ^~~~~~~~
+../src/MicroBlaze_lab5.c:44:42: note: each undeclared identifier is reported only once for each function it appears in
+../src/MicroBlaze_lab5.c:44:51: error: 'RELOAD' undeclared (first use in this function)
+    XTmrCtr_SetOptions(TimerInstancePtr,0,XTC_AUTO,RELOAD,OPTION);
+                                                   ^~~~~~
+../src/MicroBlaze_lab5.c:44:58: error: 'OPTION' undeclared (first use in this function)
+    XTmrCtr_SetOptions(TimerInstancePtr,0,XTC_AUTO,RELOAD,OPTION);
+                                                          ^~~~~~
+../src/MicroBlaze_lab5.c:44:4: error: too many arguments to function 'XTmrCtr_SetOptions'
+    XTmrCtr_SetOptions(TimerInstancePtr,0,XTC_AUTO,RELOAD,OPTION);
+    ^~~~~~~~~~~~~~~~~~
+In file included from ../src/MicroBlaze_lab5.c:7:0:
+../../Microblaze_lab5_bsp/microblaze_0/include/xtmrctr.h:285:6: note: declared here
+ void XTmrCtr_SetOptions(XTmrCtr * InstancePtr, u8 TmrCtrNumber, u32 Options);
+      ^~~~~~~~~~~~~~~~~~
+../src/MicroBlaze_lab5.c:48:4: warning: implicit declaration of function 'XTmrCtr_start'; did you mean 'XTmrCtr_Start'? [-Wimplicit-function-declaration]
+    XTmrCtr_start(TimerInstancePtr, XPAR_AXI_TIMER_0_DEVICE_ID);
+    ^~~~~~~~~~~~~
+    XTmrCtr_Start
+../src/MicroBlaze_lab5.c:19:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^~~~~~
+../src/MicroBlaze_lab5.c:19:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^~~~~
+make: *** [src/MicroBlaze_lab5.o] Fout 1
+14:49:45 **** Auto Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+'Building file: ../src/MicroBlaze_lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MicroBlaze_lab5.o" -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/MicroBlaze_lab5.d" -MT"src/MicroBlaze_lab5.o" -o "src/MicroBlaze_lab5.o" "../src/MicroBlaze_lab5.c"
+../src/MicroBlaze_lab5.c: In function 'main':
+../src/MicroBlaze_lab5.c:44:43: error: 'XTC_AUTO_RELOAD' undeclared (first use in this function); did you mean 'XTC_AUTO_RELOAD_OPTION'?
+    XTmrCtr_SetOptions(TimerInstancePtr,0 ,XTC_AUTO_RELOAD,OPTION);
+                                           ^~~~~~~~~~~~~~~
+                                           XTC_AUTO_RELOAD_OPTION
+../src/MicroBlaze_lab5.c:44:43: note: each undeclared identifier is reported only once for each function it appears in
+../src/MicroBlaze_lab5.c:44:59: error: 'OPTION' undeclared (first use in this function)
+    XTmrCtr_SetOptions(TimerInstancePtr,0 ,XTC_AUTO_RELOAD,OPTION);
+                                                           ^~~~~~
+../src/MicroBlaze_lab5.c:44:4: error: too many arguments to function 'XTmrCtr_SetOptions'
+    XTmrCtr_SetOptions(TimerInstancePtr,0 ,XTC_AUTO_RELOAD,OPTION);
+    ^~~~~~~~~~~~~~~~~~
+In file included from ../src/MicroBlaze_lab5.c:7:0:
+../../Microblaze_lab5_bsp/microblaze_0/include/xtmrctr.h:285:6: note: declared here
+ void XTmrCtr_SetOptions(XTmrCtr * InstancePtr, u8 TmrCtrNumber, u32 Options);
+      ^~~~~~~~~~~~~~~~~~
+../src/MicroBlaze_lab5.c:19:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^~~~~~
+../src/MicroBlaze_lab5.c:19:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^~~~~
+make: *** [src/MicroBlaze_lab5.o] Fout 1
+14:49:52 **** Auto Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+'Building file: ../src/MicroBlaze_lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MicroBlaze_lab5.o" -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/MicroBlaze_lab5.d" -MT"src/MicroBlaze_lab5.o" -o "src/MicroBlaze_lab5.o" "../src/MicroBlaze_lab5.c"
+../src/MicroBlaze_lab5.c: In function 'main':
+../src/MicroBlaze_lab5.c:19:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^~~~~~
+../src/MicroBlaze_lab5.c:19:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^~~~~
+'Finished building: ../src/MicroBlaze_lab5.c'
+' '
+'Building target: Microblaze_lab5.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Microblaze_lab5_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Microblaze_lab5.elf"  ./src/MicroBlaze_lab5.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Microblaze_lab5.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Microblaze_lab5.elf  |tee "Microblaze_lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8688	    320	   2120	  11128	   2b78	Microblaze_lab5.elf
+'Finished building: Microblaze_lab5.elf.size'
+' '
+14:53:20 **** Auto Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+'Building file: ../src/MicroBlaze_lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MicroBlaze_lab5.o" -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/MicroBlaze_lab5.d" -MT"src/MicroBlaze_lab5.o" -o "src/MicroBlaze_lab5.o" "../src/MicroBlaze_lab5.c"
+../src/MicroBlaze_lab5.c: In function 'main':
+../src/MicroBlaze_lab5.c:19:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^~~~~~
+../src/MicroBlaze_lab5.c:19:46: warning: variable 'count' set but not used [-Wunused-but-set-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                              ^~~~~
+'Finished building: ../src/MicroBlaze_lab5.c'
+' '
+'Building target: Microblaze_lab5.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Microblaze_lab5_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Microblaze_lab5.elf"  ./src/MicroBlaze_lab5.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Microblaze_lab5.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Microblaze_lab5.elf  |tee "Microblaze_lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9116	    320	   2124	  11560	   2d28	Microblaze_lab5.elf
+'Finished building: Microblaze_lab5.elf.size'
+' '
+14:55:26 **** Auto Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+'Building file: ../src/MicroBlaze_lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MicroBlaze_lab5.o" -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/MicroBlaze_lab5.d" -MT"src/MicroBlaze_lab5.o" -o "src/MicroBlaze_lab5.o" "../src/MicroBlaze_lab5.c"
+../src/MicroBlaze_lab5.c: In function 'main':
+../src/MicroBlaze_lab5.c:73:19: error: 'TimerInsrtancePtr' undeclared (first use in this function); did you mean 'TimerInstancePtr'?
+     XTmrCtr_Reset(TimerInsrtancePtr,XPAR_AXI_TIMER_0_DEVICE_ID);
+                   ^~~~~~~~~~~~~~~~~
+                   TimerInstancePtr
+../src/MicroBlaze_lab5.c:73:19: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../../Microblaze_lab5_bsp/microblaze_0/include/xgpio_l.h:93:0,
+                 from ../../Microblaze_lab5_bsp/microblaze_0/include/xgpio.h:127,
+                 from ../src/MicroBlaze_lab5.c:2:
+../src/MicroBlaze_lab5.c:77:22: error: 'XPAR_LED_IP_S_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_LED_IP_0_S_AXI_BASEADDR'?
+     LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR,0,count);
+                      ^
+../../Microblaze_lab5_bsp/microblaze_0/include/xil_io.h:196:22: note: in definition of macro 'Xil_Out32'
+  (*(volatile u32 *)((Addr)) = (Value))
+                      ^~~~
+../src/MicroBlaze_lab5.c:77:5: note: in expansion of macro 'LED_IP_mWriteReg'
+     LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR,0,count);
+     ^~~~~~~~~~~~~~~~
+../src/MicroBlaze_lab5.c:19:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^~~~~~
+make: *** [src/MicroBlaze_lab5.o] Fout 1
+14:55:41 **** Auto Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+'Building file: ../src/MicroBlaze_lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MicroBlaze_lab5.o" -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/MicroBlaze_lab5.d" -MT"src/MicroBlaze_lab5.o" -o "src/MicroBlaze_lab5.o" "../src/MicroBlaze_lab5.c"
+In file included from ../../Microblaze_lab5_bsp/microblaze_0/include/xgpio_l.h:93:0,
+                 from ../../Microblaze_lab5_bsp/microblaze_0/include/xgpio.h:127,
+                 from ../src/MicroBlaze_lab5.c:2:
+../src/MicroBlaze_lab5.c: In function 'main':
+../src/MicroBlaze_lab5.c:77:22: error: 'XPAR_LED_IP_S_AXI_BASEADDR' undeclared (first use in this function); did you mean 'XPAR_LED_IP_0_S_AXI_BASEADDR'?
+     LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR,0,count);
+                      ^
+../../Microblaze_lab5_bsp/microblaze_0/include/xil_io.h:196:22: note: in definition of macro 'Xil_Out32'
+  (*(volatile u32 *)((Addr)) = (Value))
+                      ^~~~
+../src/MicroBlaze_lab5.c:77:5: note: in expansion of macro 'LED_IP_mWriteReg'
+     LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR,0,count);
+     ^~~~~~~~~~~~~~~~
+../src/MicroBlaze_lab5.c:77:22: note: each undeclared identifier is reported only once for each function it appears in
+     LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR,0,count);
+                      ^
+../../Microblaze_lab5_bsp/microblaze_0/include/xil_io.h:196:22: note: in definition of macro 'Xil_Out32'
+  (*(volatile u32 *)((Addr)) = (Value))
+                      ^~~~
+../src/MicroBlaze_lab5.c:77:5: note: in expansion of macro 'LED_IP_mWriteReg'
+     LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR,0,count);
+     ^~~~~~~~~~~~~~~~
+../src/MicroBlaze_lab5.c:19:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^~~~~~
+make: *** [src/MicroBlaze_lab5.o] Fout 1
+14:56:18 **** Auto Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+'Building file: ../src/MicroBlaze_lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MicroBlaze_lab5.o" -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/MicroBlaze_lab5.d" -MT"src/MicroBlaze_lab5.o" -o "src/MicroBlaze_lab5.o" "../src/MicroBlaze_lab5.c"
+../src/MicroBlaze_lab5.c: In function 'main':
+../src/MicroBlaze_lab5.c:19:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^~~~~~
+'Finished building: ../src/MicroBlaze_lab5.c'
+' '
+'Building target: Microblaze_lab5.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Microblaze_lab5_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Microblaze_lab5.elf"  ./src/MicroBlaze_lab5.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Microblaze_lab5.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Microblaze_lab5.elf  |tee "Microblaze_lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9172	    320	   2124	  11616	   2d60	Microblaze_lab5.elf
+'Finished building: Microblaze_lab5.elf.size'
+' '
+15:03:37 **** Incremental Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+make: Er is niets te doen voor 'all'.
+15:10:22 **** Auto Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+'Building file: ../src/MicroBlaze_lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MicroBlaze_lab5.o" -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/MicroBlaze_lab5.d" -MT"src/MicroBlaze_lab5.o" -o "src/MicroBlaze_lab5.o" "../src/MicroBlaze_lab5.c"
+../src/MicroBlaze_lab5.c: In function 'main':
+../src/MicroBlaze_lab5.c:19:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^~~~~~
+'Finished building: ../src/MicroBlaze_lab5.c'
+' '
+'Building target: Microblaze_lab5.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Microblaze_lab5_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Microblaze_lab5.elf"  ./src/MicroBlaze_lab5.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Microblaze_lab5.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Microblaze_lab5.elf  |tee "Microblaze_lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9172	    320	   2124	  11616	   2d60	Microblaze_lab5.elf
+'Finished building: Microblaze_lab5.elf.size'
+' '
+15:15:44 **** Incremental Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+'Building file: ../src/MicroBlaze_lab5.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/MicroBlaze_lab5.o" -I../../Microblaze_lab5_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/MicroBlaze_lab5.d" -MT"src/MicroBlaze_lab5.o" -o "src/MicroBlaze_lab5.o" "../src/MicroBlaze_lab5.c"
+../src/MicroBlaze_lab5.c: In function 'main':
+../src/MicroBlaze_lab5.c:19:53: warning: unused variable 'Status' [-Wunused-variable]
+    int psb_check, dip_check, dip_check_prev, count, Status;
+                                                     ^~~~~~
+'Finished building: ../src/MicroBlaze_lab5.c'
+' '
+'Building target: Microblaze_lab5.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Microblaze_lab5_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.3 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Microblaze_lab5.elf"  ./src/MicroBlaze_lab5.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Microblaze_lab5.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Microblaze_lab5.elf  |tee "Microblaze_lab5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9172	    320	   2124	  11616	   2d60	Microblaze_lab5.elf
+'Finished building: Microblaze_lab5.elf.size'
+' '
+15:16:13 **** Incremental Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+make: Er is niets te doen voor 'all'.
+15:16:41 **** Incremental Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+make: Er is niets te doen voor 'all'.
+15:17:08 **** Incremental Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+make: Er is niets te doen voor 'all'.
+15:44:41 **** Incremental Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+make: Er is niets te doen voor 'all'.
+15:44:53 **** Incremental Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+make: Er is niets te doen voor 'all'.
+15:45:16 **** Incremental Build of configuration Debug for project Microblaze_lab5 ****
+make all 
+make: Er is niets te doen voor 'all'.

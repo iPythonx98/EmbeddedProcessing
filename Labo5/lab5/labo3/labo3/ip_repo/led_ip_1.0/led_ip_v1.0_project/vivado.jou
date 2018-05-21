@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Tue Apr 17 15:25:44 2018
+# Process ID: 4604
+# Log file: E:/labo3/labo3/ip_repo/led_ip_1.0/led_ip_v1.0_project/vivado.log
+# Journal file: E:/labo3/labo3/ip_repo/led_ip_1.0/led_ip_v1.0_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:\labo3\labo3\ip_repo\led_ip_1.0\led_ip_v1.0_project\led_ip_v1.0_project.xpr}
+ipx::open_ipxact_file {E:/labo3/labo3/ip_repo/led_ip_1.0/component.xml}
+set_property supported_families {{artix7} {Pre-Production}} [ipx::current_core]
+set_property supported_families {{artix7} {Pre-Production}} [ipx::current_core]
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+set_property core_revision {2} [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path e:/labo3/labo3/ip_repo/led_ip_1.0
+close_project
