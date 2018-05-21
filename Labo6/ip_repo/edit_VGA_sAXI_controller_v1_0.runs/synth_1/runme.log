@@ -1,0 +1,428 @@
+
+*** Running vivado
+    with args -log VGA_sAXI_controller_v1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source VGA_sAXI_controller_v1_0.tcl
+
+
+****** Vivado v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source VGA_sAXI_controller_v1_0.tcl -notrace
+Command: synth_design -top VGA_sAXI_controller_v1_0 -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10124 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 341.957 ; gain = 100.223
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'VGA_sAXI_controller_v1_0' [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/hdl/VGA_sAXI_controller_v1_0.vhd:53]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'VGA_sAXI_controller_v1_0_S00_AXI' declared at 'c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/hdl/VGA_sAXI_controller_v1_0_S00_AXI.vhd:5' bound to instance 'VGA_sAXI_controller_v1_0_S00_AXI_inst' of component 'VGA_sAXI_controller_v1_0_S00_AXI' [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/hdl/VGA_sAXI_controller_v1_0.vhd:102]
+INFO: [Synth 8-638] synthesizing module 'VGA_sAXI_controller_v1_0_S00_AXI' [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/hdl/VGA_sAXI_controller_v1_0_S00_AXI.vhd:87]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/hdl/VGA_sAXI_controller_v1_0_S00_AXI.vhd:226]
+INFO: [Synth 8-226] default block is never used [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/hdl/VGA_sAXI_controller_v1_0_S00_AXI.vhd:356]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/hdl/VGA_sAXI_controller_v1_0_S00_AXI.vhd:224]
+INFO: [Synth 8-256] done synthesizing module 'VGA_sAXI_controller_v1_0_S00_AXI' (1#1) [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/hdl/VGA_sAXI_controller_v1_0_S00_AXI.vhd:87]
+INFO: [Synth 8-3491] module 'VGA_controller_ip' declared at 'c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/src/VGA_controller.vhd:19' bound to instance 'VGA_controller' of component 'VGA_controller_ip' [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/hdl/VGA_sAXI_controller_v1_0.vhd:133]
+INFO: [Synth 8-638] synthesizing module 'VGA_controller_ip' [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/src/VGA_controller.vhd:31]
+	Parameter Clk_Div bound to: 1 - type: integer 
+	Parameter ClkFbOut_Mult bound to: 10.000000 - type: float 
+	Parameter ClkOut0_div bound to: 20.000000 - type: float 
+INFO: [Synth 8-3491] module 'ClkAndResetGen' declared at 'c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/src/ClkAndResetGen.vhd:30' bound to instance 'U1' of component 'ClkAndResetGen' [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/src/VGA_controller.vhd:139]
+INFO: [Synth 8-638] synthesizing module 'ClkAndResetGen' [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/src/ClkAndResetGen.vhd:43]
+	Parameter Clk_Div bound to: 1 - type: integer 
+	Parameter ClkFbOut_Mult bound to: 10.000000 - type: float 
+	Parameter ClkOut0_div bound to: 20.000000 - type: float 
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'clkin1_ibufg' to cell 'IBUF' [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/src/ClkAndResetGen.vhd:74]
+	Parameter BANDWIDTH bound to: OPTIMIZED - type: string 
+	Parameter CLKFBOUT_MULT_F bound to: 10.000000 - type: float 
+	Parameter CLKFBOUT_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKFBOUT_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKIN1_PERIOD bound to: 10.000000 - type: float 
+	Parameter CLKIN2_PERIOD bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_DIVIDE_F bound to: 20.000000 - type: float 
+	Parameter CLKOUT0_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT0_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT0_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT1_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT1_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT1_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT1_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT2_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT2_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT2_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT2_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT3_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT3_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT3_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT3_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT4_CASCADE bound to: 0 - type: bool 
+	Parameter CLKOUT4_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT4_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT4_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT4_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT5_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT5_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT5_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT5_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter CLKOUT6_DIVIDE bound to: 1 - type: integer 
+	Parameter CLKOUT6_DUTY_CYCLE bound to: 0.500000 - type: float 
+	Parameter CLKOUT6_PHASE bound to: 0.000000 - type: float 
+	Parameter CLKOUT6_USE_FINE_PS bound to: 0 - type: bool 
+	Parameter COMPENSATION bound to: ZHOLD - type: string 
+	Parameter DIVCLK_DIVIDE bound to: 1 - type: integer 
+	Parameter IS_CLKINSEL_INVERTED bound to: 1'b0 
+	Parameter IS_PSEN_INVERTED bound to: 1'b0 
+	Parameter IS_PSINCDEC_INVERTED bound to: 1'b0 
+	Parameter IS_PWRDWN_INVERTED bound to: 1'b0 
+	Parameter IS_RST_INVERTED bound to: 1'b0 
+	Parameter REF_JITTER1 bound to: 0.010000 - type: float 
+	Parameter REF_JITTER2 bound to: 0.000000 - type: float 
+	Parameter SS_EN bound to: FALSE - type: string 
+	Parameter SS_MODE bound to: CENTER_HIGH - type: string 
+	Parameter SS_MOD_PERIOD bound to: 10000 - type: integer 
+	Parameter STARTUP_WAIT bound to: 0 - type: bool 
+INFO: [Synth 8-113] binding component instance 'mmcm_adv_inst' to cell 'MMCME2_ADV' [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/src/ClkAndResetGen.vhd:84]
+INFO: [Synth 8-113] binding component instance 'clkf_buf' to cell 'BUFG' [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/src/ClkAndResetGen.vhd:145]
+INFO: [Synth 8-113] binding component instance 'clkout1_buf' to cell 'BUFG' [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/src/ClkAndResetGen.vhd:150]
+INFO: [Synth 8-256] done synthesizing module 'ClkAndResetGen' (2#1) [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/src/ClkAndResetGen.vhd:43]
+	Parameter H_total bound to: 1040 - type: integer 
+	Parameter H_active bound to: 800 - type: integer 
+	Parameter H_fp bound to: 56 - type: integer 
+	Parameter H_sync bound to: 120 - type: integer 
+	Parameter H_bp bound to: 64 - type: integer 
+	Parameter V_total bound to: 666 - type: integer 
+	Parameter V_active bound to: 600 - type: integer 
+	Parameter V_fp bound to: 37 - type: integer 
+	Parameter V_sync bound to: 6 - type: integer 
+	Parameter V_bp bound to: 23 - type: integer 
+INFO: [Synth 8-3491] module 'VideoTimingGen' declared at 'c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/src/VideoTimingGen.vhd:16' bound to instance 'U2' of component 'VideoTimingGen' [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/src/VGA_controller.vhd:151]
+INFO: [Synth 8-638] synthesizing module 'VideoTimingGen' [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/src/VideoTimingGen.vhd:42]
+	Parameter H_total bound to: 1040 - type: integer 
+	Parameter H_active bound to: 800 - type: integer 
+	Parameter H_fp bound to: 56 - type: integer 
+	Parameter H_sync bound to: 120 - type: integer 
+	Parameter H_bp bound to: 64 - type: integer 
+	Parameter V_total bound to: 666 - type: integer 
+	Parameter V_active bound to: 600 - type: integer 
+	Parameter V_fp bound to: 37 - type: integer 
+	Parameter V_sync bound to: 6 - type: integer 
+	Parameter V_bp bound to: 23 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'VideoTimingGen' (3#1) [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/src/VideoTimingGen.vhd:42]
+	Parameter H_total bound to: 1040 - type: integer 
+	Parameter H_active bound to: 800 - type: integer 
+	Parameter H_fp bound to: 56 - type: integer 
+	Parameter H_sync bound to: 120 - type: integer 
+	Parameter H_bp bound to: 64 - type: integer 
+	Parameter V_total bound to: 666 - type: integer 
+	Parameter V_active bound to: 600 - type: integer 
+	Parameter V_fp bound to: 37 - type: integer 
+	Parameter V_sync bound to: 6 - type: integer 
+	Parameter V_bp bound to: 23 - type: integer 
+INFO: [Synth 8-3491] module 'ColorGen' declared at 'c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/src/ColorGenerator.vhd:18' bound to instance 'U3' of component 'ColorGen' [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/src/VGA_controller.vhd:176]
+INFO: [Synth 8-638] synthesizing module 'ColorGen' [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/src/ColorGenerator.vhd:42]
+	Parameter H_total bound to: 1040 - type: integer 
+	Parameter H_active bound to: 800 - type: integer 
+	Parameter H_fp bound to: 56 - type: integer 
+	Parameter H_sync bound to: 120 - type: integer 
+	Parameter H_bp bound to: 64 - type: integer 
+	Parameter V_total bound to: 666 - type: integer 
+	Parameter V_active bound to: 600 - type: integer 
+	Parameter V_fp bound to: 37 - type: integer 
+	Parameter V_sync bound to: 6 - type: integer 
+	Parameter V_bp bound to: 23 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ColorGen' (4#1) [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/src/ColorGenerator.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'VGA_controller_ip' (5#1) [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/src/VGA_controller.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'VGA_sAXI_controller_v1_0' (6#1) [c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/VGA_sAXI_controller_1.0/hdl/VGA_sAXI_controller_v1_0.vhd:53]
+WARNING: [Synth 8-3331] design ColorGen has unconnected port Clk
+WARNING: [Synth 8-3331] design VGA_sAXI_controller_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design VGA_sAXI_controller_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design VGA_sAXI_controller_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design VGA_sAXI_controller_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design VGA_sAXI_controller_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design VGA_sAXI_controller_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 396.418 ; gain = 154.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 396.418 ; gain = 154.684
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 396.418 ; gain = 154.684
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-5546] ROM "vcount_sig" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 396.418 ; gain = 154.684
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 5     
+	               11 Bit    Registers := 2     
+	                4 Bit    Registers := 5     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 5     
+	   2 Input      4 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module VGA_sAXI_controller_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 5     
+Module VideoTimingGen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 2     
++---Registers : 
+	               11 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 4     
+Module ColorGen 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 3     
+Module VGA_controller_ip 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "VGA_controller/U2/vcount_sig" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3331] design VGA_sAXI_controller_v1_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design VGA_sAXI_controller_v1_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design VGA_sAXI_controller_v1_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design VGA_sAXI_controller_v1_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design VGA_sAXI_controller_v1_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design VGA_sAXI_controller_v1_0 has unconnected port s00_axi_arprot[0]
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\VGA_sAXI_controller_v1_0_S00_AXI_inst/aw_en_reg )
+INFO: [Synth 8-3886] merging instance 'VGA_sAXI_controller_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'VGA_sAXI_controller_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\VGA_sAXI_controller_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'VGA_sAXI_controller_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'VGA_sAXI_controller_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\VGA_sAXI_controller_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (VGA_sAXI_controller_v1_0_S00_AXI_inst/aw_en_reg) is unused and will be removed from module VGA_sAXI_controller_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_sAXI_controller_v1_0_S00_AXI_inst/axi_bresp_reg[1]) is unused and will be removed from module VGA_sAXI_controller_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_sAXI_controller_v1_0_S00_AXI_inst/axi_araddr_reg[1]) is unused and will be removed from module VGA_sAXI_controller_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_sAXI_controller_v1_0_S00_AXI_inst/axi_araddr_reg[0]) is unused and will be removed from module VGA_sAXI_controller_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_sAXI_controller_v1_0_S00_AXI_inst/axi_awaddr_reg[1]) is unused and will be removed from module VGA_sAXI_controller_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_sAXI_controller_v1_0_S00_AXI_inst/axi_awaddr_reg[0]) is unused and will be removed from module VGA_sAXI_controller_v1_0.
+WARNING: [Synth 8-3332] Sequential element (VGA_sAXI_controller_v1_0_S00_AXI_inst/axi_rresp_reg[1]) is unused and will be removed from module VGA_sAXI_controller_v1_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 551.348 ; gain = 309.613
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 551.348 ; gain = 309.613
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 551.852 ; gain = 310.117
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 551.852 ; gain = 310.117
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 551.852 ; gain = 310.117
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 551.852 ; gain = 310.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 551.852 ; gain = 310.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 551.852 ; gain = 310.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 551.852 ; gain = 310.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     3|
+|2     |CARRY4     |     2|
+|3     |LUT1       |     3|
+|4     |LUT2       |     6|
+|5     |LUT3       |    17|
+|6     |LUT4       |    27|
+|7     |LUT5       |    20|
+|8     |LUT6       |    53|
+|9     |MMCME2_ADV |     1|
+|10    |FDRE       |   203|
+|11    |FDSE       |     2|
+|12    |IBUF       |    60|
+|13    |OBUF       |    55|
++------+-----------+------+
+
+Report Instance Areas: 
++------+----------------------------------------+---------------------------------+------+
+|      |Instance                                |Module                           |Cells |
++------+----------------------------------------+---------------------------------+------+
+|1     |top                                     |                                 |   452|
+|2     |  VGA_controller                        |VGA_controller_ip                |   112|
+|3     |    U1                                  |ClkAndResetGen                   |     4|
+|4     |    U2                                  |VideoTimingGen                   |    92|
+|5     |    U3                                  |ColorGen                         |     2|
+|6     |  VGA_sAXI_controller_v1_0_S00_AXI_inst |VGA_sAXI_controller_v1_0_S00_AXI |   225|
++------+----------------------------------------+---------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 551.852 ; gain = 310.117
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 21 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 551.852 ; gain = 310.117
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 551.852 ; gain = 310.117
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 63 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+39 Infos, 21 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 651.887 ; gain = 420.137
+INFO: [Common 17-1381] The checkpoint 'c:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/ip_repo/edit_VGA_sAXI_controller_v1_0.runs/synth_1/VGA_sAXI_controller_v1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file VGA_sAXI_controller_v1_0_utilization_synth.rpt -pb VGA_sAXI_controller_v1_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 651.887 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon May 21 18:17:10 2018...
