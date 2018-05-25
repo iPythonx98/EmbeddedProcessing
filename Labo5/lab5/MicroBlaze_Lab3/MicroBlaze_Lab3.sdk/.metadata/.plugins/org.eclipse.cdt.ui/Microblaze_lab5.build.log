@@ -1,6 +1,6 @@
-15:45:16 **** Incremental Build of configuration Debug for project Microblaze_lab5 ****
+11:28:43 **** Incremental Build of configuration Debug for project Microblaze_lab5 ****
 make all 
 make: Er is niets te doen voor 'all'.
 
-15:45:16 Build Finished (took 209ms)
+11:28:43 Build Finished (took 201ms)
 

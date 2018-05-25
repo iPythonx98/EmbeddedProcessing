@@ -2,11 +2,11 @@
 # Webtalk v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # 
-# Start of session at: Mon May 21 15:46:55 2018
-# Process ID: 4880
-# Current directory: C:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo5/lab5/MicroBlaze_Lab3/MicroBlaze_Lab3.sdk/webtalk
+# Start of session at: Fri May 25 11:36:24 2018
+# Process ID: 4032
+# Current directory: C:/Users/basile.berckmoes/Documents/GitHub/EmbeddedProcessing/Labo5/lab5/MicroBlaze_Lab3/MicroBlaze_Lab3.sdk/webtalk
 # Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
-# Log file: C:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo5/lab5/MicroBlaze_Lab3/MicroBlaze_Lab3.sdk/webtalk/webtalk.log
-# Journal file: C:/Users/BasileBerckmoes/Documents/GitHub/EmbeddedProcessing/Labo5/lab5/MicroBlaze_Lab3/MicroBlaze_Lab3.sdk/webtalk\webtalk.jou
+# Log file: C:/Users/basile.berckmoes/Documents/GitHub/EmbeddedProcessing/Labo5/lab5/MicroBlaze_Lab3/MicroBlaze_Lab3.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/basile.berckmoes/Documents/GitHub/EmbeddedProcessing/Labo5/lab5/MicroBlaze_Lab3/MicroBlaze_Lab3.sdk/webtalk\webtalk.jou
 #-----------------------------------------------------------
 source sdk_webtalk.tcl

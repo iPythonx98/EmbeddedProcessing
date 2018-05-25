@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri May 25 12:14:25 2018
+# Process ID: 3892
+# Current directory: c:/Users/basile.berckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/VGAlab2/MicroBlaze_lab1/MicroBlaze_lab1.tmp/vga_saxi_controller_v1_0_project/VGA_sAXI_controller_v1_0_project.runs/synth_1
+# Command line: vivado.exe -log VGA_sAXI_controller_v1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source VGA_sAXI_controller_v1_0.tcl
+# Log file: c:/Users/basile.berckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/VGAlab2/MicroBlaze_lab1/MicroBlaze_lab1.tmp/vga_saxi_controller_v1_0_project/VGA_sAXI_controller_v1_0_project.runs/synth_1/VGA_sAXI_controller_v1_0.vds
+# Journal file: c:/Users/basile.berckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/VGAlab2/MicroBlaze_lab1/MicroBlaze_lab1.tmp/vga_saxi_controller_v1_0_project/VGA_sAXI_controller_v1_0_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source VGA_sAXI_controller_v1_0.tcl -notrace

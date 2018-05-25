@@ -1,0 +1,19 @@
+vhdl xil_defaultlib  \
+"../../../bd/System/ip/System_microblaze_0_0/sim/System_microblaze_0_0.vhd" \
+"../../../bd/System/ip/System_dlmb_v10_0/sim/System_dlmb_v10_0.vhd" \
+"../../../bd/System/ip/System_ilmb_v10_0/sim/System_ilmb_v10_0.vhd" \
+"../../../bd/System/ip/System_dlmb_bram_if_cntlr_0/sim/System_dlmb_bram_if_cntlr_0.vhd" \
+"../../../bd/System/ip/System_ilmb_bram_if_cntlr_0/sim/System_ilmb_bram_if_cntlr_0.vhd" \
+"../../../bd/System/ip/System_mdm_1_0/sim/System_mdm_1_0.vhd" \
+"../../../bd/System/ip/System_rst_clk_wiz_1_100M_0/sim/System_rst_clk_wiz_1_100M_0.vhd" \
+"../../../bd/System/ip/System_axi_uartlite_0_0/sim/System_axi_uartlite_0_0.vhd" \
+"../../../bd/System/sim/System.vhd" \
+"../../../bd/System/ipshared/6afc/hdl/VGA_sAXI_controller_v1_0_S00_AXI.vhd" \
+"../../../bd/System/ipshared/6afc/hdl/VGA_sAXI_controller_v1_0.vhd" \
+"../../../bd/System/ipshared/6afc/src/ClkAndResetGen.vhd" \
+"../../../bd/System/ipshared/6afc/src/ColorGenerator.vhd" \
+"../../../bd/System/ipshared/6afc/src/VGA_controller.vhd" \
+"../../../bd/System/ipshared/6afc/src/VideoTimingGen.vhd" \
+"../../../bd/System/ip/System_VGA_sAXI_controller_0_0/sim/System_VGA_sAXI_controller_0_0.vhd" \
+
+nosort

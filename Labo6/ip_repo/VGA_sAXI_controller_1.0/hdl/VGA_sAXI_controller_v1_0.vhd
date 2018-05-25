@@ -22,7 +22,7 @@ entity VGA_sAXI_controller_v1_0 is
           VGA_OUT_RED         : out std_logic_vector(3 downto 0);
           VGA_OUT_GREEN       : out std_logic_vector(3 downto 0);
           VGA_OUT_BLUE        : out std_logic_vector(3 downto 0);
-          sAXIcolor           : in std_logic_vector(11 downto 0);
+          
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 		-- Ports of Axi Slave Bus Interface S00_AXI
@@ -51,7 +51,7 @@ entity VGA_sAXI_controller_v1_0 is
 end VGA_sAXI_controller_v1_0;
 
 architecture arch_imp of VGA_sAXI_controller_v1_0 is
-
+     signal sAXIcolor : std_logic_vector(11 downto 0);
 	-- component declaration
 	component VGA_sAXI_controller_v1_0_S00_AXI is
 		generic (
@@ -106,6 +106,7 @@ VGA_sAXI_controller_v1_0_S00_AXI_inst : VGA_sAXI_controller_v1_0_S00_AXI
 	)
 	port map (
         --S_AXI_COLOR => sAXIcolor,
+        S_AXI_COLOR => sAXIcolor,
 		S_AXI_ACLK	=> s00_axi_aclk,
 		S_AXI_ARESETN	=> s00_axi_aresetn,
 		S_AXI_AWADDR	=> s00_axi_awaddr,

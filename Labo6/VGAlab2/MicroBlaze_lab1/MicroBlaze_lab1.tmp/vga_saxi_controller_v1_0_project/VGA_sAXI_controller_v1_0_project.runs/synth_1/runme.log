@@ -1,0 +1,22 @@
+
+*** Running vivado
+    with args -log VGA_sAXI_controller_v1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source VGA_sAXI_controller_v1_0.tcl
+
+
+****** Vivado v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source VGA_sAXI_controller_v1_0.tcl -notrace
+Command: synth_design -top VGA_sAXI_controller_v1_0 -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-83] Releasing license: Synthesis
+2 Infos, 0 Warnings, 0 Critical Warnings and 1 Errors encountered.
+synth_design failed
+ERROR: [Common 17-680] Path length exceeds 260-Byte maximum allowed by Windows: c:/Users/basile.berckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/VGAlab2/MicroBlaze_lab1/MicroBlaze_lab1.tmp/vga_saxi_controller_v1_0_project/VGA_sAXI_controller_v1_0_project.runs/synth_1/c:/Users/basile.berckmoes/Documents/GitHub/EmbeddedProcessing/Labo6/VGAlab2/MicroBlaze_lab1/MicroBlaze_lab1.tmp/vga_saxi_controller_v1_0_project/VGA_sAXI_controller_v1_0_project.runs/synth_1/.Xil/Vivado-3892-DESKTOP-ATHB2LP/realtime\VGA_sAXI_controller_v1_0.tcl
+Please consider using the OS subst command to shorten the path length by mapping part of the path to a virtual drive letter. See Answer Record AR52787 for more information.
+Resolution: In Windows 7 or later, the mklink command can also be used to create a symbolic link and shorten the path.
+INFO: [Common 17-206] Exiting Vivado at Fri May 25 12:14:32 2018...

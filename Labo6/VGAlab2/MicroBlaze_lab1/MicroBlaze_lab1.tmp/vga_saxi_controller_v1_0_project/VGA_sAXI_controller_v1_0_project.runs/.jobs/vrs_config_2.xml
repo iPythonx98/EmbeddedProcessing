@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_1" LaunchDir="c:/users/basile.berckmoes/documents/github/embeddedprocessing/labo6/vgalab2/microblaze_lab1/microblaze_lab1.tmp/vga_saxi_controller_v1_0_project/VGA_sAXI_controller_v1_0_project.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+
